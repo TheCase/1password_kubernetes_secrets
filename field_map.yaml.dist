@@ -1,0 +1,16 @@
+# mapping secrets to 1password UUIDs
+#
+---
+
+example:
+  namespace: default
+  secrets:
+    username:
+      uuid: abc123xyzabc123xyzabc123xy
+      field: username
+    password:
+      uuid: abc123xyzabc123xyzabc123xy
+      field: password
+    url:
+      uuid: abc123xyzabc123xyzabc123xy
+      field: url
