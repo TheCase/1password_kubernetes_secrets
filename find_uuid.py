@@ -3,8 +3,6 @@
 import os
 import json
 import subprocess
-from string import Template
-from pprint import pprint
 
 if 'OP_SESSION_my' not in os.environ:
   print("please set OP_SESSION_my with this command: eval $(op signin my)")
